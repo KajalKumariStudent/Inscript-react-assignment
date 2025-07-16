@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Toolbar from '../components/Toolbar';
 import Header from '../components/Header';
 import FloatingActions from '../components/FloatingActions';
