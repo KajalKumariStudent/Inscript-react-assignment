@@ -9,9 +9,7 @@ interface ToolbarProps {
   onToggleHideFields: () => void;
 }
 
-const Toolbar: React.FC<ToolbarProps> = ({ 
-  showFilters, 
-  hideFields, 
+const Toolbar: React.FC<ToolbarProps> = ({  
   onToggleFilters, 
   onToggleHideFields 
 }) => {
