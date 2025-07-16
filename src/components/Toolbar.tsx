@@ -3,8 +3,6 @@ import React from 'react';
 import { ChevronDown, Eye, Filter, Import, Download, Share2, Plus } from 'lucide-react';
 
 interface ToolbarProps {
-  showFilters: boolean;
-  hideFields: boolean;
   onToggleFilters: () => void;
   onToggleHideFields: () => void;
 }
